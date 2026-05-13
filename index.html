@@ -53,10 +53,15 @@
         }
 
         .logo {
-            font-weight: 900;
-            font-size: 1.4rem;
-            letter-spacing: -1px;
-            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 70px;   /* Adjust size here */
+            width: auto;
+            display: block;
+            object-fit: contain;
         }
 
         .nav-links a {
@@ -214,7 +219,7 @@
     <nav>
         <div class="logo">
             <a href="https://www.trivara-tech.com/" target="_blank" rel="noopener noreferrer">
-                TRIVARA
+                <img src="Logo1.PNG" alt="TRIVARA Logo">
             </a>
         </div>
         <div class="nav-links">
